@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pogo | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/kai.webp">
+    <script src="js/846de9e07b.js"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body id="body__productsPage">
+    <div class="modal__overlay"></div>
+    <section id="js--cartModal" class="addToCart__modalSection">
+        <div class="addToCart__modal">
+            <h2 class="addToCart__modalText">
+                <i class="fa-sharp fa-solid fa-check" style="color: #9ac122; padding: 0.5rem;"></i>
+                added to cart
+            </h2>
+        </div>
+    </section>
+    <header class="header">
+        <a href="index.html" class="header"><img src="/img/logo.webp" alt="Logo van de website" class="header__logo"></a>
+        <ul class="header__list">
+            <li class="header__listItem header__listItemOne">
+                <a href="products.html" class="header__link">products</a>
+            </li>
+            <li class="header__listItem header__listItemTwo">
+                <a href="/shoppingCart.html" class="header__link">
+                    <figure class="header__itemsCount">0</figure>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <div class="orderInfo">
+        <i class="fa-sharp fa-solid fa-check" style="color: #9ac122; padding: 0.5rem;"></i>
+        order and get your product in your mailbox as soon as possible
+    </div>
+    <article class="products__titles"><h1 class="products__h1">pogo products</h1></article>
+    <article class="body__pageTwo">
+    <aside class="aside">
+        <article id="js--inputs" class="inputs">
+            <div class="inputs__inputs">
+                <span class="inputs__text">categories</span>
+                <div class="filter__div">
+                    <input id="js--comicCheckbox" type="checkbox" class="filter fa-solid fa-check">
+                    <label for="js--comicCheckbox" class="label">comic</label>
+                </div>
+                <div class="filter__div">
+                    <input id="js--albumCheckbox" type="checkbox" class="filter fa-solid fa-check">
+                    <label for="js--albumCheckbox" class="label">album</label>
+                </div>
+                <div class="filter__div">
+                    <input id="js--jamesCheckbox" type="checkbox" class="filter fa-solid fa-check">
+                    <label for="js--jamesCheckbox" class="label">james</label>
+                </div>
+                <div class="filter__div">
+                    <input id="js--moviesCheckbox" type="checkbox" class="filter fa-solid fa-check">
+                    <label for="js--moviesCheckbox" class="label">movies</label>
+                </div>
+                <div class="filter__div">
+                    <input id="js--jobsCheckbox" type="checkbox" class="filter fa-solid fa-check">
+                    <label for="js--jobsCheckbox" class="label">jobs</label>
+                </div>
+            </div>
+        </article>
+    </aside>
+    <main class="main__pageTwo">
+        <article id="js--productModal" class="productModal">
+            <i id="js--xmark" class="fa-solid fa-xmark xmark"></i>
+            <section class="productModal__sectionOne">
+                <figure class="productModal__figure">
+                    <img id="productImage" src="" alt="" class="productModal__image">
+                <p id="productInfo" class="productModal__text"></p>
+                <p id="js--removeLink" class="productModal__link">go back to products</p>
+                </figure>
+                <div class="productModal__div"> 
+                    <h2 id="productTitle" class="productModal__heading"></h2>
+                    <h3 id="productPrice" class="productModal__price"></h3>
+                    <span>
+                        <button class="productModal__variations">200 x 200</button>
+                        <button class="productModal__variations">500 x 500</button>
+                        <button class="productModal__variations">1000 x 1000</button>
+                    </span>
+                    <button class="productModal__addToCart">add to cart</button>
+                </div>
+                </section>
+        </article>
+        <div class="selectMenu">
+            <span class="selectMenu__spanBox">
+                <ul class="selectMenu__list">
+                    <li id="js--recommended" class="selectMenu__listItem activeProducts">recommended</li>
+                    <li id="js--lowToHigh" class="selectMenu__listItem activeProducts">price: low to high</li>
+                    <li id="js--highToLow" class="selectMenu__listItem activeProducts">price: high to low</li>
+                </ul>
+            </span>    
+        </div>
+        <div class="selectMenu__line">
+        <span>
+            <p class="products__articles--p">20 articles</p>
+        </span>
+        <span class="selectMenu__selectSort">sort on:
+            <span class="selectMenu__sortText">
+                <i id="js--selectMenu-arrow" class="fa-sharp fa-solid fa-play fa-rotate-90" style="font-size: 1rem;"></i>
+            </span>
+        </span>
+    </div>
+    <div class="products" id="tryout"></div>
+    </main>
+    </article>
+<footer>
+    <img src="img/logo.webp" alt="">
+    <div>
+        <p>pogo company™</p>
+        <p>pogo rights©</p>
+    </div>
+</footer>
+</body>
+</html>

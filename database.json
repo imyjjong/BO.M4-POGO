@@ -1,0 +1,184 @@
+{
+    "type": "database",
+    "name": "databasePOGO",
+    "objects": [
+        {
+            "type": "table",
+            "database": null,
+            "name": "products",
+            "withoutRowId": false,
+            "strict": false,
+            "ddl": "CREATE TABLE products (name VARCHAR (255), price DECIMAL (10, 2), id INT PRIMARY KEY, info VARCHAR (1000), image VARCHAR (255))",
+            "columns": [
+                {
+                    "name": "name",
+                    "type": "VARCHAR"
+                },
+                {
+                    "name": "price",
+                    "type": "DECIMAL (10, 2)"
+                },
+                {
+                    "name": "id",
+                    "type": "INT",
+                    "constraints": [
+                        {
+                            "type": "PRIMARY KEY",
+                            "definition": "PRIMARY KEY"
+                        }
+                    ]
+                },
+                {
+                    "name": "info",
+                    "type": "VARCHAR"
+                },
+                {
+                    "name": "image",
+                    "type": "VARCHAR"
+                }
+            ],
+            "rows": [
+                [
+                    "pogo in comic art pt.1",
+                    10,
+                    1,
+                    "Introducing Pogo: The Superhero! A vibrant comic art-style painting featuring Pogo, the man with extraordinary powers. Energize your walls today!",
+                    "/img/comicone.webp"
+                ],
+                [
+                    "base",
+                    15,
+                    2,
+                    "Experience the musical masterpiece visually with Pogo's Base. A breathtaking painting capturing Jonghyun's album essence through Pogo's artistry. Harmonize your space today!",
+                    "/img/base.webp"
+                ],
+                [
+                    "elevator",
+                    17,
+                    3,
+                    "Elevate your art collection with Elevator! A captivating painting capturing Pogo's intriguing world. Step into imagination today!",
+                    "/img/elevator.webp"
+                ],
+                [
+                    "pogo scissorhands",
+                    26,
+                    4,
+                    "Unleash Pogo's creative brilliance with Pogo as Edward Scissorhands! A captivating fusion of two iconic characters in one extraordinary painting. Dare to embrace the artistic edge!",
+                    "/img/edward.webp"
+                ],
+                [
+                    "software developer",
+                    14,
+                    5,
+                    "Witness the extraordinary career of Pogo: Software Developer! This painting captures Pogo's life as a software developer, merging creativity and technology in one masterpiece. Unleash the digital artistry!",
+                    "/img/computer.webp"
+                ],
+                [
+                    "pogo in comic art pt.2",
+                    10,
+                    6,
+                    "Behold the electrifying Wow Moment! This comic-style painting showcases Pogo's shock with the dazzling WOW letters forming an eye-catching backdrop. Electrify your space!",
+                    "/img/comictwo.webp"
+                ],
+                [
+                    "my original soundtrack",
+                    20,
+                    7,
+                    "Immerse yourself in Pogo's Original Soundtrack. This captivating painting brings Jung Jin Woo's album to life through Pogo's artistic rendition. Experience the musical masterpiece visually!",
+                    "/img/myoriginalsoundtrack.webp"
+                ],
+                [
+                    "fireplace",
+                    17,
+                    8,
+                    "Introducing \"Pogo: The Superhero!\" ",
+                    "/img/fireplace.webp"
+                ],
+                [
+                    "black swan",
+                    11,
+                    9,
+                    "Experience the mesmerizing transformation of Pogo as Nina: The Black Swan. This captivating painting merges artistry and ballet in one enchanting masterpiece. Unleash your inner grace!",
+                    "/img/comictwo.webp"
+                ],
+                [
+                    "bartender",
+                    8,
+                    10,
+                    "Raise a glass to Pogo, the Master Mixologist! This captivating painting showcases Pogo's talent as a bartender, serving up creativity and cocktails with flair. Cheers to artistic libations!",
+                    "/img/bartender.webp"
+                ],
+                [
+                    "pogo in comic art pt.3",
+                    10,
+                    11,
+                    "Step into the dynamic world of Pogo with Comic Art Pogo! This captivating painting captures the essence of classic comic art, complete with bold lines and expressive lips. Unleash the power of nostalgia!",
+                    "/img/comicthree.webp"
+                ],
+                [
+                    "red",
+                    12,
+                    12,
+                    "Experience the vibrant emotions of Pogo's Red. This painting captures the essence of Taylor Swift's iconic album, showcasing Pogo's artistic rendition. Immerse yourself in a kaleidoscope of feelings!",
+                    "/img/red.webp"
+                ],
+                [
+                    "diphylleia grayi",
+                    15,
+                    13,
+                    "Introducing \"Pogo: The Superhero!\" ",
+                    "/img/comictwo.webp"
+                ],
+                [
+                    "wanda",
+                    21,
+                    14,
+                    "Enter the depths of Pogo's sorrow with Wanda's Lament. This poignant painting portrays Pogo's heartfelt portrayal of sadness, capturing emotional resonance through art. Experience the melancholic masterpiece.",
+                    "/img/comictwo.webp"
+                ],
+                [
+                    "teacher",
+                    8,
+                    15,
+                    "Discover the educational prowess of Pogo as The Teaching Maestro! This painting showcases Pogo's talent as a dedicated and inspiring teacher. Embrace the art of knowledge!",
+                    "/img/teacher.webp"
+                ],
+                [
+                    "pogo in comic art pt.4",
+                    10,
+                    16,
+                    "Unlock Pogo's comic art adventures with Phone Call Chronicles. This captivating painting features Pogo in classic comic style, engrossed in an intriguing conversation. Dial into the comic world!",
+                    "/img/comicfour.webp"
+                ],
+                [
+                    "norman fucking rockwell",
+                    19,
+                    17,
+                    "Embark on a visual journey with Pogo's Normal Fucking Rockwell. This painting encapsulates Lana Del Rey's album, evoking artistic serenity and introspection. Immerse yourself in ethereal beauty.",
+                    "/img/normanfr.webp"
+                ],
+                [
+                    "end of a day maybe",
+                    15,
+                    18,
+                    "Introducing \"Pogo: The Superhero!\"",
+                    "/img/comictwo.webp"
+                ],
+                [
+                    "idk harry potter maybe",
+                    17,
+                    19,
+                    "Introducing \"Pogo: The Superhero!\" ",
+                    "/img/comictwo.webp"
+                ],
+                [
+                    "chef",
+                    11,
+                    20,
+                    "Indulge in the culinary mastery of Pogo, The Gourmet Maestro! This painting captures Pogo's passion for gastronomy, serving up artistry on a plate. Savor the visual flavors!",
+                    "/img/chef.webp"
+                ]
+            ]
+        }
+    ]
+}

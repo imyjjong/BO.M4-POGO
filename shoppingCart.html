@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pogo | Products</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/kai.webp">
+    <script src="js/846de9e07b.js"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body id="js--body__shoppingCart">
+    <section id="js--removeModal" class="removeModal__section">
+        <article class="removeModal">
+            <h2 class="removeModal__h2">are you sure you want to remove this product?</h2>
+            <div class="removeModal__div">
+                <button id="js--removeButton" class="removeModal__removeButton">remove</button>
+                <button id="js--cancelButton" class="removeModal__cancelButton">cancel</button>
+            </div>
+        </article>
+    </section>
+    <div class="modal__overlay"></div>
+        <header class="header">
+            <a href="index.html" class="header"><img src="/img/logo.webp" alt="Logo van de website" class="header__logo"></a>
+            <ul class="header__list">
+                <li class="header__listItem header__listItemOne">
+                    <a href="products.html" class="header__link">products</a>
+                </li>
+                <li class="header__listItem header__listItemTwo">
+                    <a href="/shoppingCart.html" class="header__link">
+                        <figure class="header__itemsCount">0</figure>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </a>
+                </li>
+                <!-- <li class="header__listItem header__listItemThree">
+                    <i class="fa-solid fa-lightbulb lightbulb__dark"></i>
+                    <i class="fa-regular fa-lightbulb lightbulb__light" style="display: none;"></i>
+                </li> -->
+            </ul>
+        </header>
+        <main class="main__cartPage">
+            <section class="shoppingCart">
+                <span id="js--shoppingCart-header" class="shoppingCart__header">
+                    <h2 class="shoppingCart__h2">shopping cart</h2>
+                </span>
+                <div id="js--emptyCart" class="shoppingCart__div">
+                    <figure class="shoppingCart__figure--i">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </figure>
+                    <h3 class="shoppingCart__h3">
+                        shopping cart is empty
+                    </h3>
+                    <p class="shoppingCart__text">
+                        add your products to your shopping cart
+                    </p>
+                </div>
+                <div id="js--shoppingCartItem" class="shoppingCart__product">
+                    <i class="fa-solid fa-trash-can shoppingCart__trashCan"></i>
+                    <figure class="shoppingCart__figure">   
+                        <img id="itemImage" src="img/base.webp" alt="" class="shoppingCart__image">
+                    </figure>
+                    <div class="shoppingCart__div--info">
+                    <span class="shoppingCart__span">
+                        <h3 id="itemTitle" class="shoppingCart__title">base</h3>
+                    </span>
+                    <div class="shoppingCart__product--div">
+                        <p id="itemInfo" class="shoppingCart__info">base is an awesome album
+                        </p>
+                        <p id="js--shoppingCartSize" class="shoppingCart__description">1000x1000
+                        </p>
+                    </div>
+                    <span class="shoppingCart__selectNumber">
+                        <h2 id="itemPrice" class="shoppingCart__price">€15</h2>
+                    </span>
+                    </div>
+                </div>
+                <div id="js--shoppingCartItem" class="shoppingCart__product">
+                    <i class="fa-solid fa-trash-can shoppingCart__trashCan"></i>
+                    <figure class="shoppingCart__figure">   
+                        <img id="itemImage" src="img/normanfr.webp" alt="" class="shoppingCart__image">
+                    </figure>
+                    <div class="shoppingCart__div--info">
+                    <span class="shoppingCart__span">
+                        <h3 id="itemTitle" class="shoppingCart__title">norman fucking rockwell</h3>
+                    </span>
+                    <div class="shoppingCart__product--div">
+                        <p id="itemInfo" class="shoppingCart__info">i want to go to the lana del rey concert
+                        </p>
+                        <p id="js--shoppingCartSize" class="shoppingCart__description">1000x1000
+                        </p>
+                    </div>
+                    <span class="shoppingCart__selectNumber">
+                        <h2 id="itemPrice" class="shoppingCart__price">€17</h2>
+                    </span>
+                    </div>
+                </div>
+                <div id="js--shoppingCartItem" class="shoppingCart__product">
+                    <i class="fa-solid fa-trash-can shoppingCart__trashCan"></i>
+                    <figure class="shoppingCart__figure">   
+                        <img id="itemImage" src="img/teacher.webp" alt="" class="shoppingCart__image">
+                    </figure>
+                    <div class="shoppingCart__div--info">
+                    <span class="shoppingCart__span">
+                        <h3 id="itemTitle" class="shoppingCart__title">teacher</h3>
+                    </span>
+                    <div class="shoppingCart__product--div">
+                        <p id="itemInfo" class="shoppingCart__info">teacher whatever idc, i only have idk about 15 minutes left so im in a rush
+                        </p>
+                        <p id="js--shoppingCartSize" class="shoppingCart__description">200x200
+                        </p>
+                    </div>
+                    <span class="shoppingCart__selectNumber">
+                        <h2 id="itemPrice" class="shoppingCart__price">€12</h2>
+                    </span>
+                    </div>
+                </div>
+                <div id="js--shoppingCartItem" class="shoppingCart__product">
+                    <i class="fa-solid fa-trash-can shoppingCart__trashCan"></i>
+                    <figure class="shoppingCart__figure">   
+                        <img id="itemImage" src="img/elevator.webp" alt="" class="shoppingCart__image">
+                    </figure>
+                    <div class="shoppingCart__div--info">
+                    <span class="shoppingCart__span">
+                        <h3 id="itemTitle" class="shoppingCart__title">elevator</h3>
+                    </span>
+                    <div class="shoppingCart__product--div">
+                        <p id="itemInfo" class="shoppingCart__info">my sweetie jonghyun
+                        </p>
+                        <p id="js--shoppingCartSize" class="shoppingCart__description">1000x1000
+                        </p>
+                    </div>
+                    <span class="shoppingCart__selectNumber">
+                        <h2 id="itemPrice" class="shoppingCart__price">€17</h2>
+                    </span>
+                    </div>
+                </div>
+                <div id="js--checkout" class="checkout">
+                    <span class="checkout__totalPrice">
+                        <h3 class="checkout__total">total</h3>
+                        <h2 id="js--total-price" class="checkout__price">€61</h2>
+                    </span>
+                    <a class="checkout__phpLink" href="http://localhost/sendemail/">order</a>
+                </div>
+            </section>
+        </main>
+       <footer>
+        <img src="img/logo.webp" alt="">
+        <div>
+            <p>pogo company™</p>
+            <p>pogo rights©</p>
+        </div>
+    </footer>
+</body>
+</html>
